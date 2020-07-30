@@ -25,7 +25,9 @@ class App extends React.Component<Props, {}> {
   render = () => {
     return (
       <div>
-      The answer is {this.props.answer}
+        <a href='https://stackoverflow.com/q/63170955/274677'>https://stackoverflow.com/q/63170955/274677</a>
+        <br/>
+        The answer is {this.props.answer}
       </div>
     );
   }
